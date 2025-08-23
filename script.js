@@ -16,3 +16,4 @@ function toggleColors() {
 }
 
 document.addEventListener("click", toggleColors);
+document.addEventListener("touchstart", toggleColors);
