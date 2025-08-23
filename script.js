@@ -17,3 +17,8 @@ function toggleColors() {
 
 document.addEventListener("click", toggleColors);
 document.addEventListener("touchstart", toggleColors);
+
+navigator.geolocation.getCurrentPosition(
+    position => console.log(position),
+    error => console.error(error)
+)
