@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,8 +9,30 @@
 body {
   background-color: black;
   color: white;
+  height: 100vh;
+  width: 100vw;
+  font-family:monospace ;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 25px;
+  font-size: 1.5rem;
+}
+
+div {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
+  line-height: 2.5rem;
 }
