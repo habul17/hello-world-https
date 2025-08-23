@@ -10,8 +10,9 @@ body {
   background-color: black;
   color: white;
   height: 100vh;
-  width: 100vw;
-  font-family:monospace ;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: monospace;
 }
 
 nav {
