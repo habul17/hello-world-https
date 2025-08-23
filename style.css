@@ -35,4 +35,6 @@ div {
   flex-direction: column;
   height: 100vh;
   line-height: 2.5rem;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
 }
